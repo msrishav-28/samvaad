@@ -1,0 +1,48 @@
+# Dependencies, build output, host metadata, and local working state
+node_modules/
+.next/
+.gateway/
+.vercel/
+.local/
+.agents/
+.codex/
+coverage/
+supabase/.temp/
+*.tsbuildinfo
+.DS_Store
+
+# Private environment values
+.env
+.env.*
+!.env.example
+
+# Local-only material
+*.zip
+/SVG/
+/output/
+/docs/
+/config/
+
+# Public documentation is an explicit allowlist.
+# Ignore rules do not remove files that Git already tracks; review the index too.
+*.md
+!/README.md
+!/CONTRIBUTING.md
+!/SECURITY.md
+!/documentation/index.md
+!/documentation/user-guide.md
+!/documentation/development.md
+!/documentation/configuration.md
+!/documentation/architecture.md
+!/documentation/api.md
+!/documentation/database.md
+!/documentation/operations.md
+!/documentation/validation.md
+
+# Local design-tool state
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.design-cache/
+.v0-trash/
