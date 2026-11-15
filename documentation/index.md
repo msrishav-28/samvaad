@@ -4,6 +4,8 @@
 
 These documents describe the implementation in the repository. They do not establish that a particular deployment, provider account, browser, or release has passed acceptance. Source references identify where to verify behavior when the implementation changes.
 
+For a short overview of the product, vision, and next steps, read the [one-page solution pitch](solution-pitch.md) or its [PDF export](../output/pdf/samvaad-solution-pitch.pdf).
+
 ## For students
 
 Start with the [user guide](user-guide.md). It explains account access, choosing a round, the microphone check, controls, reports, history, and connection problems. The application's `/privacy` page identifies the configured providers and operator contact.

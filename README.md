@@ -9,6 +9,8 @@
 
 Samvaad is an English voice-practice application for students preparing for interviews, vivas, debates, group discussions, and presentations. Choose a topic, difficulty, and three- or five-minute round; speak with disclosed AI participants; then review feedback grounded in the saved transcript.
 
+Developed for **Gnani AI's The Great Indian AI Internship Challenge**.
+
 ## Practice and feedback
 
 | Practice mode    | Conversation                                                                         |
@@ -66,6 +68,7 @@ Gnani handles speech. Groq, Gemini, or an explicitly configured compatible text 
 
 ## Documentation
 
+- [One-page solution pitch](documentation/solution-pitch.md) and [PDF](output/pdf/samvaad-solution-pitch.pdf): the implemented product, vision, and next steps.
 - [Student guide](documentation/user-guide.md): accounts, practice, feedback, and troubleshooting.
 - [Documentation index](documentation/index.md): the complete user and engineering reading paths.
 - [Development](documentation/development.md) and [configuration](documentation/configuration.md): local setup and environment settings.

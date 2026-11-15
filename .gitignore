@@ -19,7 +19,10 @@ supabase/.temp/
 # Local-only material
 *.zip
 /SVG/
-/output/
+/output/*
+!/output/pdf/
+/output/pdf/*
+!/output/pdf/samvaad-solution-pitch.pdf
 /docs/
 /config/
 
@@ -38,6 +41,7 @@ supabase/.temp/
 !/documentation/database.md
 !/documentation/operations.md
 !/documentation/validation.md
+!/documentation/solution-pitch.md
 
 # Local design-tool state
 __v0_runtime_loader.js
